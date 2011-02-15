@@ -1,0 +1,17 @@
+{
+  "name": "Translation Telephone Helper",
+  "description": "Highlight phrases on webpages and send them through Translation Telephone, a fun tool that translates a message into many languages.",
+  "version": "0.5",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "background_page": "background.html",
+  "icons": {
+      "16": "icon-16.png",
+      "64": "icon-64.png",
+      "128": "icon-128.png"
+   }
+}

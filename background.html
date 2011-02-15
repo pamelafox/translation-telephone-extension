@@ -1,0 +1,11 @@
+<script>
+function processClick(info, tab) {
+  var text = info.selectionText;
+  var url = 'http://www.translation-telephone.com/#message=' + text;
+  chrome.tabs.create({url: url});
+}
+
+chrome.contextMenus.create({title: 'Translate Telephone this!', contexts: ['selection'], onclick: processClick});    
+</script>
+
+
